@@ -21,6 +21,11 @@
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
+<script type="text/javascript" src="<?php echo bloginfo('template_directory');?>/js/vendor/jquery.js"></script>
+<script type="text/javascript" src="<?php echo bloginfo('template_directory');?>/js/vendor/foundation.min.js"></script>
+<script type="text/javascript">
+	$(document).foundation();
+</script>
 
 <?php wp_footer(); ?>
 
